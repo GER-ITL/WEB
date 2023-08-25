@@ -1,0 +1,244 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus, :active{outline: none;}
+a:focus, a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html, body{
+
+	height: 100%;
+	width: 100%;
+	font-style: 100%;
+	line-height: 1;
+	font-style: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea{font-family: inherit;}
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style-type: none;}
+img{vertical-align: top;}
+
+h1,h2, h3, h4, h5, h6{font-style: inherit; font-weight: 400;}
+/*reset style project*/
+
+body{
+
+    background-color: #E6E6FA;
+
+}
+.box{
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: center;
+    
+}
+.text1{
+    font-size: 150px;
+    color: rgb(0, 70, 201);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 2px 2px 1px #000;
+}
+.pict{
+    height: 150px;
+
+}
+.icone{
+    text-align: center;
+    margin-top: 50px;
+}
+.textA{
+    border: 1px #000 solid;
+    background: #E6E6FA;
+}
+.forma{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 500px;
+    height: 100%;
+    overflow-y: auto;
+    border: 1px solid #000;
+    border-top: none;
+    padding: 20px ;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-shadow: 1px 1px 1px #000;
+}
+
+h1{
+    margin:20px 0 20px 0 ;
+
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: cadetblue;
+    text-align: center;
+
+}
+h2{
+    color: cadetblue;
+    text-align: center;
+    font-size: 24px;
+    margin:10px 0 20px 0 ;
+}
+
+.image{
+    height: 450px;
+    max-width: 800px;
+    box-shadow: 1px 1px 30px #000;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background: url(/img/look.com.ua-192291.jpg) 0 0  no-repeat;
+    background-size: 97%;
+    background-position: center;
+    border-radius: 10px;
+    
+}
+.blocktext{
+    margin: 0 auto;
+    max-width: 800px;
+}
+.text{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #127dbb;
+    line-height: 20px;
+    text-align: left;
+}
+
+.list{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+.list li{
+    text-align: center ;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #127dbb;
+
+}
+.list li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #333;
+    margin-right: 10px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.list li:hover:before{
+    background: green;
+}
+.list2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
+}
+.list2 li{
+    text-align: center ;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #127dbb;
+    transition: 0.5s;
+
+}
+.list2 li::before{
+    content: '✔';
+    color: #333;
+    margin-right: 10px;
+}
+.list :nth-child(1){
+   text-decoration: line-through;
+}
+.list :nth-child(2){
+    font-weight: 1000;
+ }
+ .list :nth-child(3){
+    font-style: italic;
+ }
+ .list :nth-child(4){
+    text-transform: uppercase;
+ }
+ .list2 li:nth-child(2):hover{
+  background: #333;
+  color: #E6E6FA;
+ }
+
+ .textblock{
+	text-align: left;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-left: 40%;
+	width: 20%;
+	height: 25px;
+    border: 1px solid #333;
+    background-color: #E6E6FA;
+ }
+.textblock:focus{
+    box-shadow: 1px 1px 10px #333;
+}
+.but{
+
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 30px;
+    background: #127dbb;
+    color: #E6E6FA;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 20px #000;
+    transition: 0.5s;
+}
+
+
+.but:hover {
+    box-shadow: 2px 2px 40px #127dbb;
+    color: #127dbb;
+    background: #333;
+    font-size: 27px;
+
+}
+.but:active{
+    color: green;
+}
+.href1{
+    text-decoration: overline;
+    transition: 0.2s;
+}
+
+
+.href1:hover{
+    text-decoration: underline;
+    color: green;
+}
+.href1:active{
+    color: #810d0d;
+    box-shadow: 1px 1px 10px #000;
+    border-radius: 10px;
+    text-decoration: none;
+}

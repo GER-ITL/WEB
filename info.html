@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form  class="forma" action="#" method="post" enctype="multipart/form-data">
+        <p>Имя</p>
+        <div>
+            <input placeholder="Nameuser" type="text" name="user"></input>
+        </div>
+
+        <p>Пароль</p>
+        <div>
+            <input placeholder="Userpass" type="password" name="pass"></input>
+        </div>
+        <p>Телефон</p>
+        <div>
+            <input placeholder="Phone" type="tel" name="numphone"></input>
+        </div>
+        <p>Пол</p>
+        <div>
+            <input checked type="radio" name='gender' value="female">Мужской</input>
+            <input  type="radio" name='gender' value="male">Женский</input>
+        </div>
+        <p>Имущество</p>
+        <div>
+            <input checked type="checkbox" name='bike' value="yes">Велик</input><br>
+            <input type="checkbox" name='car' value="yes">Машина</input><br>
+            <input disabled type="checkbox" name='house' value="yes">Дом</input>
+        </div>
+        <p>Дополнительная информация</p>
+    <textarea class="textA"  name="text"></textarea>
+        <p>Прикрепить фото</p>
+        <input  type="file">Выбрать фото</input>
+        <p>Любимый цвет</p>
+        <div>
+            <select type="text" name="color">
+                <option>красный</option>
+                <option selected>синий</option>
+                <option>зеленый</option>
+            </select>
+        </div>
+        <p>Ваша страна</p>
+        <div>
+            <select type="text" name="country">
+                <option>Россия</option>
+                <option>Китай</option>
+                <option>Америка</option>
+            </select>
+        </div>
+        <p>Действия</p>
+        <div>
+            <button type="submit">отправить</button>
+            <button type="reset">очистить</button>
+        </div>
+    </form>
+</body>
+</html>
